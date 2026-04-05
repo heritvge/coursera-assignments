@@ -1,0 +1,89 @@
+body {
+    font-size: 16px;
+    color: #fff;
+    background-color: #61122f;
+    font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+    background-color: #f6b319;
+    border-radius: 0;
+    border: 0;
+}
+
+.navbar-brand h1 {
+    font-family: 'Lora', serif;
+    color: #557c3e;
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: .75;
+}
+
+#logo-img {
+    background: url('../images/restaurant-logo_large.png') no-repeat;
+    width: 150px;
+    height: 150px;
+    margin: 10px 15px 10px 0;
+}
+
+.navbar-brand p {
+    color: #000;
+    font-size: .7em;
+    margin-top: 15px;
+}
+
+.navbar-brand p img {
+    height: 20px;
+    width: auto;
+    margin-right: 5px;
+}
+
+#nav-list {
+    margin-top: 10px;
+}
+
+#nav-list a {
+    color: #951c49;
+    text-align: center;
+}
+
+#nav-list a:hover {
+    background: #e7e7e7;
+}
+
+#nav-list a span {
+    font-size: 1.8em;
+}
+
+.panel-footer {
+    margin-top: 30px;
+    padding-top: 35px;
+    padding-bottom: 30px;
+    background-color: #222;
+    color: #fff;
+}
+
+#main-content {
+    min-height: 500px;
+}
+
+.menu-item-tile {
+    margin-bottom: 25px;
+}
+
+.menu-item-price span {
+    font-size: 1.2em;
+}
+
+.menu-item-photo {
+    position: relative;
+    overflow: hidden;
+    padding: 0;
+    margin-right: -15px;
+    margin-left: auto;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 150px;
+}
